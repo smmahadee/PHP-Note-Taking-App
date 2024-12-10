@@ -1,0 +1,27 @@
+{
+  "name": "mahadee/test-php",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "smmahadee",
+      "email": "mahadee.codes@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^11.34"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.6"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
